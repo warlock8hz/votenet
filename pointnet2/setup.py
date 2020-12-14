@@ -1,5 +1,5 @@
 # Copyright (c) Facebook, Inc. and its affiliates.
-# 
+#
 # This source code is licensed under the MIT license found in the
 # LICENSE file in the root directory of this source tree.
 
@@ -20,7 +20,7 @@ setup(
             name='pointnet2._ext',
             sources=_ext_sources,
             extra_compile_args={
-                "cxx": ["-O2", "-I{}".format("{}/include".format(_ext_src_root))],
+                "cxx": ["-O2", "-fopenmp", "-I{}".format("{}/include".format(_ext_src_root))],
                 "nvcc": ["-O2", "-I{}".format("{}/include".format(_ext_src_root))],
             },
         )
