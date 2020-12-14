@@ -1,5 +1,5 @@
 // Copyright (c) Facebook, Inc. and its affiliates.
-// 
+//
 // This source code is licensed under the MIT license found in the
 // LICENSE file in the root directory of this source tree.
 
@@ -7,7 +7,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "cuda_utils.h"
+#include "../include/cuda_utils.h"
 
 // input: unknown(b, n, 3) known(b, m, 3)
 // output: dist2(b, n, 3), idx(b, n, 3)

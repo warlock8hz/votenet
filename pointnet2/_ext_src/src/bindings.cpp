@@ -1,12 +1,12 @@
 // Copyright (c) Facebook, Inc. and its affiliates.
-// 
+//
 // This source code is licensed under the MIT license found in the
 // LICENSE file in the root directory of this source tree.
 
-#include "ball_query.h"
-#include "group_points.h"
-#include "interpolate.h"
-#include "sampling.h"
+#include "../include/ball_query.h"
+#include "../include/group_points.h"
+#include "../include/interpolate.h"
+#include "../include/sampling.h"
 
 PYBIND11_MODULE(TORCH_EXTENSION_NAME, m) {
   m.def("gather_points", &gather_points);

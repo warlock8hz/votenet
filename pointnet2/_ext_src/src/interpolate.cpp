@@ -1,10 +1,10 @@
 // Copyright (c) Facebook, Inc. and its affiliates.
-// 
+//
 // This source code is licensed under the MIT license found in the
 // LICENSE file in the root directory of this source tree.
 
-#include "interpolate.h"
-#include "utils.h"
+#include "../include/interpolate.h"
+#include "../include/utils.h"
 
 void three_nn_kernel_wrapper(int b, int n, int m, const float *unknown,
                              const float *known, float *dist2, int *idx);

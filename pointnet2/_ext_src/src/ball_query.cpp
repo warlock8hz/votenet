@@ -1,10 +1,10 @@
 // Copyright (c) Facebook, Inc. and its affiliates.
-// 
+//
 // This source code is licensed under the MIT license found in the
 // LICENSE file in the root directory of this source tree.
 
-#include "ball_query.h"
-#include "utils.h"
+#include "../include/ball_query.h"
+#include "../include/utils.h"
 
 void query_ball_point_kernel_wrapper(int b, int n, int m, float radius,
                                      int nsample, const float *new_xyz,
